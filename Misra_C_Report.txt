@@ -1,0 +1,26 @@
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if it is not a conversion to a wider integer type of the same signedness	UART_API.c	/UART_CHAT/HAL	line 119	C/C++ Problem
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if it is not a conversion to a wider integer type of the same signedness	UART_API.c	/UART_CHAT/HAL	line 167	C/C++ Problem
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if it is not a conversion to a wider integer type of the same signedness	UART_API.c	/UART_CHAT/HAL	line 175	C/C++ Problem
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if it is not a conversion to a wider integer type of the same signedness	UART_API.c	/UART_CHAT/HAL	line 185	C/C++ Problem
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if it is not a conversion to a wider integer type of the same signedness	switch.c	/UART_CHAT/HAL	line 170	C/C++ Problem
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex	switch.c	/UART_CHAT/HAL	line 176	C/C++ Problem
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex	switch.c	/UART_CHAT/HAL	line 189	C/C++ Problem
+#1393-D (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument	switch.c	/UART_CHAT/HAL	line 55	C/C++ Problem
+#1400-D (MISRA-C:2004 11.3/A) A cast should not be performed between a pointer type and an integral type	UART_API.c	/UART_CHAT/HAL	line 257	C/C++ Problem
+#770-D conversion from pointer to smaller integer	UART_API.c	/UART_CHAT/HAL	line 257	C/C++ Problem
+#1497-D (MISRA-C:2004 5.7/A) No identifier name should be reused ("receivedChar")	UART_API.c	/UART_CHAT/HAL	line 185	C/C++ Problem
+#1497-D (MISRA-C:2004 5.7/A) No identifier name should be reused ("receivedChar")	UART_API.c	/UART_CHAT/HAL	line 164	C/C++ Problem
+#1485-D (MISRA-C:2004 6.2/R) signed and unsigned char type shall be used only for the storage and use of numeric values	UART_API.c	/UART_CHAT/HAL	line 190	C/C++ Problem
+#1485-D (MISRA-C:2004 6.2/R) signed and unsigned char type shall be used only for the storage and use of numeric values	UART_API.c	/UART_CHAT/HAL	line 175	C/C++ Problem
+#1485-D (MISRA-C:2004 6.2/R) signed and unsigned char type shall be used only for the storage and use of numeric values	UART_API.c	/UART_CHAT/HAL	line 119	C/C++ Problem
+#1476-D (MISRA-C:2004 17.4/R) Array indexing shall be the only allowed form of pointer arithmetic	UART_API.c	/UART_CHAT/HAL	line 257	C/C++ Problem
+#1468-D (MISRA-C:2004 14.7/R) A function shall have a single point of exit at the end of the function	switch.c	/UART_CHAT/HAL	line 164	C/C++ Problem
+#1468-D (MISRA-C:2004 14.7/R) A function shall have a single point of exit at the end of the function	switch.c	/UART_CHAT/HAL	line 133	C/C++ Problem
+#1467-D (MISRA-C:2004 14.6/R) For any iteration statement there shall be at most one break statement used for loop termination	UART_API.c	/UART_CHAT/HAL	line 192	C/C++ Problem
+#1464-D (MISRA-C:2004 10.6/R) A "U" suffix shall be applied to all constants of unsigned type	switch.c	/UART_CHAT/HAL	line 108	C/C++ Problem
+#1464-D (MISRA-C:2004 10.6/R) A "U" suffix shall be applied to all constants of unsigned type	UART_API.c	/UART_CHAT/HAL	line 61	C/C++ Problem
+#1464-D (MISRA-C:2004 10.6/R) A "U" suffix shall be applied to all constants of unsigned type	UART_API.c	/UART_CHAT/HAL	line 58	C/C++ Problem
+#1464-D (MISRA-C:2004 10.6/R) A "U" suffix shall be applied to all constants of unsigned type	UART_API.c	/UART_CHAT/HAL	line 41	C/C++ Problem
+#1464-D (MISRA-C:2004 10.6/R) A "U" suffix shall be applied to all constants of unsigned type	UART_API.c	/UART_CHAT/HAL	line 38	C/C++ Problem
+#1460-D (MISRA-C:2004 16.7/A) A pointer parameter in a function prototype should be declared as pointer to const if the pointer is not used to modify the addressed object ("btn: const button_t *")	switch.c	/UART_CHAT/HAL	line 205	C/C++ Problem
+#1460-D (MISRA-C:2004 16.7/A) A pointer parameter in a function prototype should be declared as pointer to const if the pointer is not used to modify the addressed object ("btn: const button_t *")	switch.c	/UART_CHAT/HAL	line 143	C/C++ Problem
