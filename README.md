@@ -37,18 +37,18 @@ MCAL (Microcontroller Abstraction Layer)
 
 The MCAL represents the lowest layer in the architecture and abstracts the microcontroller-specific hardware details. It encompasses drivers for various hardware modules of the Tiva C TM4C123 microcontroller. In this project, the MCAL includes:
 
-SysTick Driver: This driver manages the SysTick timer, responsible for system timing and precise timing intervals. It provides functions to configure and utilize the SysTick timer for tasks such as button debouncing and state transitions.
+    SysTick Driver: This driver manages the SysTick timer, responsible for system timing and precise timing intervals. It provides functions to configure and utilize the SysTick timer for tasks such as button debouncing and state transitions.
 
-System Clock Driver: The System Clock Driver handles the microcontroller's clock settings. It allows for the configuration and management of clock sources and frequencies, ensuring that the system operates at the desired clock rate.
+    System Clock Driver: The System Clock Driver handles the microcontroller's clock settings. It allows for the configuration and management of clock sources and frequencies, ensuring that the system operates at the desired clock rate.
 
-GPIO Driver: The GPIO Driver manages the GPIO (General-Purpose Input/Output) pins on the microcontroller. It provides functions for configuring and controlling pins, allowing for various uses such as button input and UART communication.
+    GPIO Driver: The GPIO Driver manages the GPIO (General-Purpose Input/Output) pins on the microcontroller. It provides functions for configuring and controlling pins, allowing for various uses such as button input and UART communication.
 
 HAL (Hardware Abstraction Layer)
 The HAL layer resides above the MCAL and offers higher-level abstractions of specific hardware components. It simplifies hardware interactions for the application layer. In this project, the HAL comprises:
 
-Switch Driver: The Switch Driver abstracts the functionality of buttons or switches. It offers functions to initialize buttons and read their states. The switch driver simplifies button handling for the application layer, including debouncing.
+    Switch Driver: The Switch Driver abstracts the functionality of buttons or switches. It offers functions to initialize buttons and read their states. The switch driver simplifies button handling for the application layer, including debouncing.
 
-UART Driver: The UART Driver abstracts UART communication. It provides functions for initializing and managing UART communication, including sending and receiving data. This driver streamlines UART communication for the application layer.
+    UART Driver: The UART Driver abstracts UART communication. It provides functions for initializing and managing UART communication, including sending and receiving data. This driver streamlines UART communication for the application layer.
 
 Application Layer
 The Application Layer represents the top layer of the architecture and contains the core logic of the UART Chat Project. It is responsible for managing the project's functionality and state transitions. In this project:
@@ -61,12 +61,10 @@ The Application Layer implements the main loop, where the project's behavior is 
 
 Please click the link to make sure everything works perfectly and passes all tests without any problems.
 
-https://drive.google.com/file/d/1MW8c-YN99jgOPbYTLcjXkI6rU1Mx2trk/view?usp=sharing
+    https://drive.google.com/file/d/1MW8c-YN99jgOPbYTLcjXkI6rU1Mx2trk/view?usp=sharing
 
 Misra C report :
 
-https://drive.google.com/file/d/14ScFYmaIb8LwFzd877thr9-OgtA2faOx/view?usp=sharing
-
-Contributing
+    https://drive.google.com/file/d/14ScFYmaIb8LwFzd877thr9-OgtA2faOx/view?usp=sharing
 
 Contributions to this project are welcome. Feel free to submit bug reports, feature requests, or pull requests.
