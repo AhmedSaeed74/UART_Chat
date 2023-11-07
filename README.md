@@ -1,11 +1,11 @@
 # UART Chat Project
 
-Overview
+## Overview
 
 The UART Chat Project is a communication system between two Tiva C TM4C123 microcontroller boards using UART communication. 
 This project demonstrates bidirectional communication between the boards and includes features such as switching between off, listen, send, and receive modes.
 
-Features
+## Features
 
 Off State: The system is initially in an "Off" state, where UART communication is disabled.
 
@@ -15,7 +15,7 @@ Send and Receive State: In this state, one board sends data to another board, wh
 
 Button Control: The project uses button presses to switch between states and initiate actions.
 
-Usage
+## Usage
 
 Power on both Tiva C TM4C123 boards.
 
@@ -27,13 +27,13 @@ Use buttons on the boards to switch between different states:
     
 Observe the virtual terminal to view incoming and outgoing UART data.
 
-Layered Architecture Overview
+## Layered Architecture Overview
 
 The UART Chat Project utilizes a layered architecture to structure and organize its components. 
 This architecture is divided into three main layers: MCAL (Microcontroller Abstraction Layer), HAL (Hardware Abstraction Layer), and the Application Layer. 
 Each layer serves a distinct purpose and encapsulates related functionalities.
 
-MCAL (Microcontroller Abstraction Layer)
+### MCAL (Microcontroller Abstraction Layer)
 
 The MCAL represents the lowest layer in the architecture and abstracts the microcontroller-specific hardware details. It encompasses drivers for various hardware modules of the Tiva C TM4C123 microcontroller. In this project, the MCAL includes:
 
@@ -43,14 +43,14 @@ The MCAL represents the lowest layer in the architecture and abstracts the micro
 
    GPIO Driver: The GPIO Driver manages the GPIO (General-Purpose Input/Output) pins on the microcontroller. It provides functions for configuring and controlling pins, allowing for various uses such as button input and UART communication.
 
-HAL (Hardware Abstraction Layer)
+### HAL (Hardware Abstraction Layer)
 The HAL layer resides above the MCAL and offers higher-level abstractions of specific hardware components. It simplifies hardware interactions for the application layer. In this project, the HAL comprises:
 
    Switch Driver: The Switch Driver abstracts the functionality of buttons or switches. It offers functions to initialize buttons and read their states. The switch driver simplifies button handling for the application layer, including debouncing.
 
    UART Driver: The UART Driver abstracts UART communication. It provides functions for initializing and managing UART communication, including sending and receiving data. This driver streamlines UART communication for the application layer.
 
-Application Layer
+### Application Layer
 The Application Layer represents the top layer of the architecture and contains the core logic of the UART Chat Project. It is responsible for managing the project's functionality and state transitions. In this project:
 
 The Application Layer controls the switching between different states (Off State, Listen State, Send and Receive State) based on button presses, specifically when Switch 1 is pressed.
@@ -61,10 +61,10 @@ The Application Layer implements the main loop, where the project's behavior is 
 
 Please click the link to make sure everything works perfectly and passes all tests without any problems.
 
-    https://drive.google.com/file/d/1MW8c-YN99jgOPbYTLcjXkI6rU1Mx2trk/view?usp=sharing
+https://drive.google.com/file/d/1MW8c-YN99jgOPbYTLcjXkI6rU1Mx2trk/view?usp=sharing
 
 Misra C report :
 
-    https://drive.google.com/file/d/14ScFYmaIb8LwFzd877thr9-OgtA2faOx/view?usp=sharing
+https://drive.google.com/file/d/14ScFYmaIb8LwFzd877thr9-OgtA2faOx/view?usp=sharing
 
 Contributions to this project are welcome. Feel free to submit bug reports, feature requests, or pull requests.
